@@ -1,11 +1,11 @@
 body {
-    background-color: #FFF;
+    background-color: #D9FFF5;
     margin: 0 auto;
   }
   
   header {
-    background-color: #466995;
-    border-bottom: 1px solid #466995;
+    background-color: #AAD2BA;
+    border-bottom: 1px solid #AAD2BA;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -26,6 +26,11 @@ body {
     text-transform: uppercase;
     display: inline-block;
     width: 80px;
+  }
+
+  a {
+    color: #1D1E18;
+    text-decoration: none; /* no underline */
   }
   
   li:hover {
@@ -60,7 +65,7 @@ body {
   
   h4 {
     color: #466995;
-    font-family: 'Oswald', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 2px;
@@ -75,7 +80,7 @@ body {
   }
   
   footer {
-    background-color: #DBE9EE;
+    background-color: #AAD2BA;
     text-align: center;
     height: 100px;
     position: relative;
@@ -84,7 +89,7 @@ body {
   }
 
   .welcome {
-    background-color: #DBE9EE;
+    background-color: #B9F5D8;
     box-sizing: border-box;
     padding: 40px;
     text-align: center;
